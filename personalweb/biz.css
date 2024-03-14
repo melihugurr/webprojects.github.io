@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.body{
+    background-color: black;
+}
+#sayfa{
+    width: 1360px;
+    height: 635px;
+    border-style: solid;
+    position: relative;
+    margin: auto;
+    background-image: url(bilisim2.jpg);
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+#h11{
+    color: chartreuse;
+    display: flex;
+    justify-content: center;
+}
+#p1{
+    font-size: 17px;
+    color: rgb(116, 161, 71);
+}
+
+#anamenu{
+    height: 50px;
+    width: 1348px;
+    position: relative;
+    top: 20px;
+} 
+
+#anamenu ul{
+    list-style-type: none;
+}
+#anamenu ul li{
+    border-style: solid;
+    width: 120px;
+    border-radius: 20px;
+    text-align: center;
+    font-style: oblique;
+    background-color: chocolate;
+    position: relative;
+    left: 250px;
+    top: 40px;
+    margin-left: 110px;
+    display:inline-block
+}
